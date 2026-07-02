@@ -1,9 +1,9 @@
 @echo off
 setlocal
 
-set "WORKINGDIRECTORY=D:\Opera Downloads\WPy64-31330\notebooks\Dev\bda"
-set "VENV=D:\Opera Downloads\WPy64-31330\notebooks\envs\bigdata"
-::set "VENV=D:\Opera Downloads\WPy64-31330\envs\bigdata"
+set "WORKINGDIRECTORY=C:\Users\97259\Downloads\WinPython64-3.13.13.0dot\WPy64-313130\notebooks\DEV\bda"
+set "VENV=C:\Users\97259\Downloads\WinPython64-3.13.13.0dot\WPy64-313130\notebooks\Envs\bigdata"
+
 
 cd /d "%WORKINGDIRECTORY%"
 call "%VENV%\Scripts\activate.bat"
